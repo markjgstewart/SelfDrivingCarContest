@@ -7,7 +7,7 @@ public class TakeAction {
 
 	public void set(double a0, int lane0) {a=a0;lane=lane0;}	
 
-	public void switchLeft() {
+	public void switchLeft() { //actual lanes are 1 and 2, so car will still crash if in left lane and switching left
 		if (lane>0) lane--;
 	}
 	public void switchRight() {
